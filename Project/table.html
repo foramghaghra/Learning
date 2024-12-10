@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .table td, th{
+            padding: 3px 20px;
+        }
+
+        .running td {
+            width: 30%;
+        }
+
+        .shopping {
+            width: 35%;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h3>Table without border</h3>
+        <table class="table"> 
+            <tr>
+                <th>Person 1</th>
+                <th>Person 2</th>
+                <th>Person 3</th>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>Tobias</td>
+                <td>Linus</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>14</td>
+                <td>10</td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <h1>Running Champions list</h1>
+        <table border="1" class="running">
+            <tr>
+                <th colspan="2">Name</th>
+                <th>Grade</th>
+            </tr>
+            <tr>
+                <td>Jil</td>
+                <td>Smith</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Jil</td>
+                <td>Smith</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>7</td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <h1>Student Report card</h1>
+        <table border="1" width="25%">
+            <tr>
+                <th colspan="2">Name</th>
+                <td colspan="2">5</td>
+            </tr>
+            <tr>
+                <td colspan="4"> <b>Address:</b> <br>door number, street, city, pin, state</td>
+            </tr>
+            <tr>
+                <td>English</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>Social</td>
+            </tr>
+            <tr>
+                <td>80</td>
+                <td>88</td>
+                <td>79</td>
+                <td>92</td>
+            </tr>
+            <tr>
+                <th colspan="2">Total</th>
+                <td colspan="2">339</td>
+            </tr>
+        </table>
+    </div>
+    
+    <div>
+        <h1>Shopping Bill</h1>
+        <table border="1" class="shopping">
+            <tr>
+                <th colspan="2">Invoice #123456789</th>
+                <th colspan="2">18 January 2022</th>
+            </tr>
+            <tr>
+                <td colspan="1"><b>Pay to:</b> <br>
+                Acme Biling Co. <br>123 Main St. <br> Cityville, NA 12345 </td>
+                <td colspan="3"><b>Customer:</b> <br> John Smith <br>
+                 321 Willow Way <br>
+                Southeast Northwestershire, MA 54321 </td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>Qty.</td>
+                <td>@</td>
+                <td>Cost</td>
+            </tr>
+            <tr>
+                <td>Paperclips</td>
+                <td>1000</td>
+                <td>0.01</td>
+                <td>10.00</td>
+            </tr>
+            <tr>
+                <td>Staples(box)</td>
+                <td>100</td>
+                <td>1.00</td>
+                <td>100.00</td>
+            </tr>
+            <tr>
+                <th colspan="2">Subtotal</th>
+                <td colspan="2">110.00</td>
+            </tr>
+            <tr>
+                <th colspan="1">Tax</th>
+                <td colspan="1">8%</td>
+                <td colspan="2">8.80</td>
+            </tr>
+            <tr>
+                <th colspan="2">Grand Total</th>
+                <td colspan="2">Rs. 118.80</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
