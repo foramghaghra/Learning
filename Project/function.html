@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="hello()">Hello</button>
+    <button onclick="add(23,45)">Addition</button>
+    <script>
+        function hello() {
+            alert('Welcome');
+        }
+        function add(num1,num2){
+            alert(`Addition:- `+((num1+num2)))
+        }
+        function display(){
+            console.log("Hello world");
+        }
+        function cube(num){
+            return num*num*num;
+        }
+        display();
+        const cubeResult = cube(5);
+        console.log('Cube of 5 is' + cubeResult);
+        console.log('Cube of 7 is' + cube(7));
+    </script>
+</body>
+</html>
